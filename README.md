@@ -1,3 +1,12 @@
-# URL_shortner
-A code based on bitly to get and generate a token api and shortening the given link
-Create an account in bitly and take the username and password to create a token and request it from your code and generate the shortened url of any url inserted.
+
+**URL Shortener**
+This project is a simple URL shortener service built using the Bitly API. It allows you to shorten any given URL by leveraging Bitly's powerful link shortening capabilities.
+
+**Features**
+Shorten long URLs into short, manageable links.
+Use Bitly's API to generate and manage short links.
+Requires authentication via Bitly API token.
+**Prerequisites**
+A Bitly account.
+Python 3.x installed on your machine.
+requests library for making HTTP requests.
