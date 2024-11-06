@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-BITLY_USERNAME = "arpan15.basu@gmail.com"
-BITLY_PASSWORD = 'Arpan@15basu'
+BITLY_USERNAME = "enter user id"
+BITLY_PASSWORD = 'enter bitly password'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
